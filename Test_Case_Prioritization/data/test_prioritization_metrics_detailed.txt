@@ -1,0 +1,32 @@
+=== APFD and FDR Calculation ===
+
+Mathematical Explanation:
+APFD is computed using the formula:
+  APFD = 1 - (ΣTFᵢ / n·m) + (1 / 2n)
+
+Where:
+  - TFᵢ is the position of the first test case that kills mutant i
+  - n is the number of test cases
+  - m is the number of mutants
+
+[Risk-Based Approach]
+  - Total Test Cases (n): 858
+  - Total Mutants (m): 100
+  - ΣTFᵢ: 16284
+  - APFD: 0.8108
+  - Final FDR: 1.0000
+
+[Coverage-Based Approach]
+  - Total Test Cases (n): 1024
+  - Total Mutants (m): 100
+  - ΣTFᵢ: 78674
+  - APFD: 0.2322
+  - Final FDR: 1.0000
+
+[Randomized Approach]
+  - Total Test Cases (n): 858
+  - Total Mutants (m): 100
+  - ΣTFᵢ: 46664
+  - APFD: 0.4567
+  - Final FDR: 1.0000
+

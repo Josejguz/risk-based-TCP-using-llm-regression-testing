@@ -1,0 +1,4 @@
+=== APFD and FDR Calculation ===
+
+Mathematical Explanation:
+APFD is computed using the formula:

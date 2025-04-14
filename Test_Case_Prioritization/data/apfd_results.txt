@@ -1,0 +1,30 @@
+APFD Results and Mathematical Analysis
+========================================================================
+
+Risk-Based Strategy:
+  - Total Test Cases (n)      : 858
+  - Total Mutants (m)         : 106
+  - Sum of First Kill Indices : 21957
+  - Fault Detection Rate (FDR): 1.0000
+  - APFD Formula              : 1 - (Sum TF_i / n*m) + (1 / 2n)
+                              = 1 - (21957 / 858*106) + (1 / (2*858))
+                              = 0.7592
+
+Random Order Strategy:
+  - Total Test Cases (n)      : 858
+  - Total Mutants (m)         : 106
+  - Sum of First Kill Indices : 56243
+  - Fault Detection Rate (FDR): 1.0000
+  - APFD Formula              : 1 - (Sum TF_i / n*m) + (1 / 2n)
+                              = 1 - (56243 / 858*106) + (1 / (2*858))
+                              = 0.3822
+
+Coverage-Based Strategy:
+  - Total Test Cases (n)      : 858
+  - Total Mutants (m)         : 106
+  - Sum of First Kill Indices : 32176
+  - Fault Detection Rate (FDR): 1.0000
+  - APFD Formula              : 1 - (Sum TF_i / n*m) + (1 / 2n)
+                              = 1 - (32176 / 858*106) + (1 / (2*858))
+                              = 0.6468
+

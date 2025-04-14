@@ -1,0 +1,8 @@
+torch
+transformers
+datasets
+peft
+accelerate
+scikit-learn
+pandas
+huggingface_hub[cli]
